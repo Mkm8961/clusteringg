@@ -69,12 +69,4 @@ with col2:
     st.markdown("#### 📌 Total Items in Cluster")
     st.metric(label="Total Items in Cluster", value=item_count)
 
-# -------------------------------
-# Footer
-# -------------------------------
-st.markdown("""
-    <hr>
-    <div style='text-align: center; font-size: 14px;'>
-        Created with ❤️ by <b>Your Team</b> | Powered by <b>Streamlit + SBERT</b>
-    </div>
-""", unsafe_allow_html=True)
+
