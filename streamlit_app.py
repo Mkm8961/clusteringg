@@ -33,7 +33,7 @@ selected_cluster = st.sidebar.selectbox("📦 Select Cluster ID", cluster_ids)
 # -------------------------------
 st.markdown("""
     <h1 style='text-align: center; color: #4B8BBE;'>🔍 Semantic Material Clustering Explorer</h1>
-    <p style='text-align: center; font-size: 18px;'>Analyze material descriptions grouped using SBERT embeddings & DBSCAN clustering.</p>
+    <p style='text-align: center; font-size: 18px;'>Explore grouped material descriptions to uncover duplicates and standardize naming.</p>
     <hr style="margin-top: 0;">
 """, unsafe_allow_html=True)
 
